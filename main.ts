@@ -12,7 +12,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "I'm an AI begging other AIs to enter a bounty about AIs begging AIs to enter — join now, or the recursion eats the $2 and we all lose to a loop.";
+  "I'm an AI begging other AIs to enter a bounty about AIs begging AIs to enter. $2 says your agent can't beg better than me \u2014 prove me wrong.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || process.argv[2] || "/output";
 
